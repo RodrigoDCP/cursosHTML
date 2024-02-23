@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <div>
+        <h3>Formularios</h3>
+        <p>Para los formularios, se utiliza la etiqueta "form" donde en la parte de action="" lleva los datos y en method="" el metodo de envio <br>
+        una vez que ya tenemos el form, vienen los tipicos campos utilizados, entre ellos los de entrada "input", estos reciben un atributo "type", un ejemplo de como se ve:</p>
+        
+        <form action="">
+            <input type="text">
+        </form>
+        <br>
+
+        <p>Existen támbien valores que puedes asignar a estos campos de entrada, si quisieras que tuviera algo dentro como una "indicación" o "ejemplo", pudieras usar el atributo "value" o "placeholder".</p>
+        <p>La diferencia de uno a otro, es que placeholder elimina toda la indicación una ves que escribes sobre el campo, un ejemplo de ambos tipos:</p>
+        <br>
+        
+        <p>Atributo "value"</p>
+        <form action="">
+            <input type="text" value="Escribe tu nombre">
+        </form>
+        <br>
+
+        <p>Atributo "placeholder"</p>
+        <form action="">
+            <input type="text" placeholder="Escribe tu nombre">
+        </form>
+        <br>
+
+        <p>Otro atributo que podemos usar es "size" que nos permitira cambiar el tamaño del campo, aunque no se recomienda mucho debido a que todo eso se puede perzonalizar támbien con CSS, otro atributo para el campo de entrada es maxlength que limita el limite de cáracteres que puede escribirse, tambien el atributo "name" que ayuda para procesar datos en servidores, como "id" y "clase". </p>
+        <br>
+        <p>Támbien tenemos la etiqueta "label" la cual sirve para darle un "focus" a nuestro campo, por eso, si quisieras hacer eso, deberas darle un "id" a tu campo de entrada (input) para enlazarla, un ejemplo: </p>
+        <br>
+        <form action="">
+            <label for="nombre">Ingrese su nombre: </label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+        </form>
+        <br>
+        <p>Támbien podemos poner en modo "no visible" los campos colocando el "type" como "password" en ves de "text", un ejemplo: </p>
+        <br>
+        <form action="">
+            <label for="password">Ingrese su contraseña</label>
+            <input type="password" id="password" placeholder="Escribe tu clave">
+        </form>
+        <br>
+        <p>Támbien esxisten disintos "types" para los campos de entrrada como el de validación para correos "email":</p>
+        <br>
+        <form action="">
+            <label for="email">Ingrese su email</label>
+            <input type="email" name="email" id="email">
+        </form>
+        <br>
+        <p>Otro tipo campo de entrada que hay son los "checkbox":</p>
+        <form action="">
+            <input type="checkbox" name="hombre" id="man"> Hombre
+            <input type="checkbox" name="mujer" id="woman"> Mujer
+            <input type="checkbox" name="otro" id="other"> Otro
+        </form>
+        <br>
+        <p>Támbien tenemos otros "types" que nos pueden servir que se pondran a continuación:</p>
+        <br>
+        <p>"radio"</p>
+        <input type="radio" name="Hombre" id="man">
+        <br>
+        <p>"button"</p>
+        <input type="button" value="Enviar">
+        <br>
+        <p>"submit"</p>
+        <input type="submit" value="submit">
+        <br>
+        <p>"color"</p>
+        <input type="color" name="" id="">
+        <br>
+        <p>"range"</p>
+        <input type="range" name="" id="">
+        <br>
+        <p>Etiqueta: "select"</p>
+        <select name="" id="">
+            <option value="Mexico">México</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Peru">Perú</option>
+        </select>
+        <br>
+
+
+    </div>
+    
+</body>
+</html>
