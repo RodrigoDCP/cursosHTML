@@ -1,6 +1,8 @@
 body {
+  margin: auto;
   background-color: white; /* color de cuerpo/fondo */
   color: black; /* color de fuente */
+  font-family: helvetica;
 }
 
 h1 {
@@ -11,4 +13,22 @@ h1 {
 .sector1 {
   margin: auto;
   
+}
+
+h2 {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.tableOne {
+  margin: auto;
+  border: 2px solid #333;
+
+}
+
+th, td {
+  margin: auto;
+  border: 2px solid #333;
+  padding: 1px;
 }
