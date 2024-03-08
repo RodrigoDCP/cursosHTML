@@ -27,12 +27,15 @@ h2 {
 
 .tableOne {
   margin: auto;
-  border: 2px solid #333;
+  border: 1px solid #333;
+  border-spacing: 0;
 
 }
 
 th, td {
   margin: auto;
-  border: 2px solid #333;
-  padding: 1px;
+  border: 1px solid #333;
+  border-spacing: 0;
+  padding: 10px;
+  /* text-align: center; */
 }
