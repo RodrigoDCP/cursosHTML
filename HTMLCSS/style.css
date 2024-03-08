@@ -3,6 +3,7 @@ body {
   background-color: white; /* color de cuerpo/fondo */
   color: black; /* color de fuente */
   font-family: helvetica;
+  width: 100%;
 }
 
 h1 {
@@ -12,6 +13,9 @@ h1 {
 
 .sector1 {
   margin: auto;
+  margin-top: 3%;
+  width: 80%;
+
   
 }
 
