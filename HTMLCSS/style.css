@@ -2,21 +2,27 @@ body {
   margin: auto;
   background-color: white; /* color de cuerpo/fondo */
   color: black; /* color de fuente */
-  font-family: helvetica;
+  font-family: monospace;
   width: 100%;
-}
 
-h1 {
-  margin: auto;
+  background-image: url(recursos/pixel.jpg);
+  background-size: cover; /* Ajusta la imagen para cubrir todo el cuerpo */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-attachment: fixed; /* Fija la imagen en una posición estatica para que no se mueva al bajar o subir */
   
+
 }
 
 .sector1 {
   margin: auto;
-  margin-top: 3%;
   width: 80%;
+  background-color: #333;
+  /* border-radius: 5%; */
+  color: white;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
 
-  
 }
 
 h2 {
@@ -25,10 +31,17 @@ h2 {
   margin-bottom: 2%;
 }
 
+/* .TituloTb {
+  font-family: monospace;
+}
+*/
+
 .tableOne {
   margin: auto;
   border: 1px solid #333;
   border-spacing: 0;
+  /* border-radius: 1%; */
+  background-color: rgba(160, 79, 136, 0.384);
 
 }
 
@@ -36,6 +49,14 @@ th, td {
   margin: auto;
   border: 1px solid #333;
   border-spacing: 0;
+  border-radius: 1%;
   padding: 10px;
   /* text-align: center; */
+}
+
+.img1 {
+  margin: auto;
+  margin-bottom: 4%;
+  display: block;
+  width: 100px;
 }
