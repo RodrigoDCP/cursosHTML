@@ -22,6 +22,7 @@ body {
   padding-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 1px;
 
 }
 
@@ -38,16 +39,16 @@ h2 {
 
 .tableOne {
   margin: auto;
-  border: 1px solid #333;
+  border: 1px solid black;
   border-spacing: 0;
   /* border-radius: 1%; */
-  background-color: rgba(160, 79, 136, 0.384);
+  background-color: rgba(160, 79, 136, 0.74);
 
 }
 
 th, td {
   margin: auto;
-  border: 1px solid #333;
+  border: 1px solid black;
   border-spacing: 0;
   border-radius: 1%;
   padding: 10px;
@@ -56,7 +57,29 @@ th, td {
 
 .img1 {
   margin: auto;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   display: block;
-  width: 100px;
+  width: 60px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.contenedor {
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 50%;
+  /*padding: 5px; */
+  border-radius: 20px;
+  text-align: center;
+  
+}
+
+.parrafo {
+  font-weight: bold;
+  background-color: rgba(245, 245, 220, 0.596);
+  padding: 10px;
+  border-radius: 20px; 
 }
